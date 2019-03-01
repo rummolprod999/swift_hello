@@ -27,3 +27,6 @@ func action() -> (()->Int){
 }
 let inc = action()
 print(inc())
+
+var numbers: [Int] = [1, 2, 3, 4, 5]
+var nums = numbers[1...3]
